@@ -3,13 +3,16 @@ import Discription from './Discription';
 
 const Hello = () => {
 
-    const user = 'shree';
+    const getData=(data)=>{
+        console.log(data);
+        name = data;
+    }
    
 
     return (
         <>
     <Header 
-      user ={user}/>
+      getData ={getData}/>
     <Discription />
     </>
     )
