@@ -1,5 +1,5 @@
 import Header from './components/Header';
-
+import Footer from './components/footer';
 const App =() => {
 
   const data ={
@@ -20,6 +20,7 @@ const data1 ={
       <Header data={data}
       data1={data1}
       />
+      <Footer />
     
     </>
   )
