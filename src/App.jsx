@@ -1,9 +1,25 @@
-import Hello from './components/Hello'
+import Header from './components/Header';
 
-function App() {
+const App =() => {
+
+  const data ={
+ name : "janvi",
+ age:21,
+ student:true
+}
+const data1 ={
+  name:"ravi",
+  age:24,
+  student:false
+}
+
+
+
   return (
     <>
-      <Hello />
+      <Header data={data}
+      data1={data1}
+      />
     
     </>
   )

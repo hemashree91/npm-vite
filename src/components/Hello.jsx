@@ -1,12 +1,17 @@
-import Header from './Header';
+
 import Discription from './Discription';
 
 const Hello = () => {
 
-    const getData=(data)=>{
-        console.log(data);
-        name = data;
+    const data={data} => {
+        console.log({data});
+        
     }
+    return(
+        <>
+        <h1>{data.message}</h1>
+        </>
+    )
    
 
     return (

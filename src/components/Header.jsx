@@ -1,9 +1,13 @@
-const Header = ({getData}) => {
+const Header = (props) => {
 
-    const user = 'guest';
-    getData(user);
+    
+    console.log(props)
     return (
-        <h1>Hello {user}</h1>
+        <>
+        <h1>student:1{ }</h1>
+<button>one</button>
+        <h2>student:2{ }</h2>
+        </>
     )
 }
 export default Header;
